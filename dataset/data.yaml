@@ -1,0 +1,21 @@
+names:
+- '0.2'
+- '0.5'
+- '1'
+- '10'
+- '100'
+- '2'
+- '20'
+- '200'
+- '5'
+- '50'
+nc: 10
+roboflow:
+  license: CC BY 4.0
+  project: pi-jsuku
+  url: https://universe.roboflow.com/aitoulahyans-workspace/pi-jsuku/dataset/1
+  version: 1
+  workspace: aitoulahyans-workspace
+test: ../test/images
+train: ../train/images
+val: ../valid/images
