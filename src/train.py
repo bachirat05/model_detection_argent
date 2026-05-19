@@ -4,12 +4,12 @@ model = YOLO("yolov8n.pt")
 
 model.train(
     data="dataset/data.yaml",
-    epochs=50,
+    epochs=100,
     imgsz=640,
     batch=8,
     name="money_detector",
-    patience=10,
-    device="cpu"
+    patience=30,
+    device='O'
 )
 
 print("✅ Entraînement terminé !")
